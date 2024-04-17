@@ -1,13 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .container {
     width: 90%;
-    margin: auto;
+    margin: 10px auto;
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
 }
 
 .gambar img:nth-child(1) {
-    /* height: 470px; */
+    height: 470px;
 }
 
 .info {
