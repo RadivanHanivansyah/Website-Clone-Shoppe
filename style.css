@@ -1,0 +1,16 @@
+.container {
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gambar img:nth-child(1) {
+    /* height: 470px; */
+}
+
+.info {
+    border: 1px solid black;
+    padding: 5px 5px;
+}
