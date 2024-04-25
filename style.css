@@ -178,7 +178,6 @@ body {
 }
 
 .barang {
-    border: 1px solid black;
     display: flex;
     padding: 0;
     height: 50%;
@@ -186,7 +185,6 @@ body {
 }
 
 .rincian {
-    border: 1px solid black;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -201,20 +199,101 @@ body {
     flex: 5;
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .value h3 {
-    border: 1px solid black;
     font-size: 14px;
     font-family: "Roboto", sans-serif;
 }
 
 .value h3:first-child {
-    width: 230px;
+    width: 165px;
+    color: #767676;
 }
 
 .value h3:last-child {
     width: 100%;
+}
+
+.value.voucher h3:last-child a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(205, 4, 4);
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: rgb(169, 169, 199);
+    cursor: default;
+}
+
+.value h3:last-child span {
+    color: black;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.value.return h3:last-child span:last-child {
+    color: #767676;
+}
+
+.protection h3:last-child a {
+    text-decoration: none;
+    color: rgb(93, 93, 226);
+}
+
+.pengiriman h3:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.pengiriman h3:last-child span:first-child {
+    margin-bottom: 3px;
+}
+
+.pengiriman h3:last-child span:nth-child(3) {
+    margin-top: 15px;
+    margin-bottom: 9px;
+}
+
+.pengiriman h3:last-child span:nth-child(2) {
+    color: #767676;
+}
+
+.pengiriman h3:last-child span a {
+    text-decoration: none;
+    margin-left: 35px;
+    color: black;
+    font-weight: bold;
+}
+
+.pengiriman h3:last-child span:last-child a {
+    font-weight: 400;
+}
+
+.color {
+    height: 50%;
+}
+
+.color h3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color h3:last-child {
+    overflow: auto;
+    height: 90%;
+}
+
+.color h3 a {
+    padding: 10px;
+    background-color: rgba(239, 232, 232, 0.952);
+    margin-bottom: 8px;
+    margin-right: 6px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: black;
+    overflow: auto;
+    width: 30%;
+    text-align: center;
 }
