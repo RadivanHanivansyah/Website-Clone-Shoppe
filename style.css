@@ -303,7 +303,6 @@ body {
 }
 
 .value.kuantitas h3:last-child .jumlah.barang {
-    border: 1px solid #767676;
     position: relative;
     bottom: 30px;
 }
@@ -313,7 +312,10 @@ body {
     font-size: 1.5rem;
     border: 1px solid #767676;
     padding: 5px;
+    padding-bottom: 15px;
     color: black;
+    width: 1.5em;
+    text-align: center;
 }
 
 .value.kuantitas h3:last-child span {
@@ -321,4 +323,12 @@ body {
     border: 1px solid #767676;
     padding: 10px;
     margin-right: 0;
+    width: 4.5em;
+}
+
+.jumlah.barang p {
+    font-weight: normal;
+    line-height: 40px;
+    margin-left: 1em;
+    color: #767676;
 }
