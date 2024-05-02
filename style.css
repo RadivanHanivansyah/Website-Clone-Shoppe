@@ -31,6 +31,9 @@ body {
     display: flex;
     justify-content: space-between;
     position: relative;
+    /* width: 55%;
+    overflow: hidden; */
+    width: 100%;
 }
 
 .item img:first-child {
@@ -331,4 +334,8 @@ body {
     line-height: 40px;
     margin-left: 1em;
     color: #767676;
+}
+
+.hidden {
+    display: none;
 }
